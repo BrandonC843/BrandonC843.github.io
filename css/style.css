@@ -1,0 +1,122 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   background-color: #26A65B;
+}
+
+#app-container{
+   font-family: "comic sans";
+}
+.navbar{
+   text-align: center;
+   font-size: 35px;
+}
+.main-data{
+   vertical-align: top;
+   display: flex;
+   width: 100%;
+}
+.profile img{
+   width: 65%;
+   border-radius: 50%;
+   border: 5px #22313F dotted;
+   margin-left: 25%;
+}
+.profile{
+   margin-top: 5%;
+   width: 50%;
+   display: inline;
+}
+.profile{
+   width: 50%;
+   padding-right: 10%;
+}
+.profile h1{
+   font-size: 30px;
+}
+.profile p{
+   font-size: 20px;
+
+}
+.profile a{
+   text-decoration: none;
+   color: #333;
+}
+.thumbnail {
+   border: none;
+   margin-left: 35px;
+   margin-right: 35px;
+   margin-top: 30px;
+   background-color: #26A65B
+}
+.thumbnail img{
+   width: 75%;
+   border-radius: 50%;
+   border: 3px #22313F solid;
+}
+.thumbnail img:hover{
+   border-radius: 25%;
+   width: 100%;
+}
+.btn{
+   border: none;
+   background-color: #26A65B;
+   margin-left: 25%;
+   padding: 10px 15px 10px 15px;
+}
+.btn i{
+   font-size: 25px;
+}
+.btn:hover{
+   background-color: #1E824C;
+}
+.work{
+   margin-top: 50px;
+   font-size: 35px;
+   color: #34495e;
+   text-decoration: underline;
+   text-align: center;
+}
+
+h3{
+   text-align: center;
+}
+
+h3:hover{
+   color: #34495e;
+   font-size: 35px;
+   font-style:oblique;
+}
+
+.skills{
+   text-align: center;
+   font-size: 35px;
+   text-decoration: underline;
+   color: #34495e;
+}
+
+.skillset{
+   font-size: 8rem;
+   text-align: center;
+}
+.skillset i {
+   padding-left: 40px;
+   padding-right: 45px;
+}
+.engage{
+   text-align: center;
+   text-decoration: underline;
+   font-size: 35px;
+   color: #34495e;
+}
+
+.contact{
+   font-size: 8rem;
+   text-align: center;
+}
+
+.contact a {
+   padding-left: 45px;
+   padding-right: 45px;
+}
