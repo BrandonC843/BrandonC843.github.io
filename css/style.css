@@ -2,7 +2,7 @@
    box-sizing: border-box;
 }
 body{
-   background-color: red;
+   background-color: #666;
 }
 
 #app-container{
@@ -53,7 +53,7 @@ body{
 .thumbnail img{
    width: 75%;
    border-radius: 50%;
-   border: 3px #22313F solid;
+   border: 3px #666 solid;
 }
 .thumbnail img:hover{
    border-radius: 25%;
