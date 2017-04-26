@@ -2,7 +2,7 @@
    box-sizing: border-box;
 }
 body{
-   background-color: #26A65B;
+   background-color: #ddd;
 }
 
 #app-container{
@@ -48,7 +48,7 @@ body{
    margin-left: 35px;
    margin-right: 35px;
    margin-top: 30px;
-   background-color: #26A65B
+   background-color: #666
 }
 .thumbnail img{
    width: 75%;
@@ -61,7 +61,7 @@ body{
 }
 .btn{
    border: none;
-   background-color: #26A65B;
+   background-color: #666;
    margin-left: 25%;
    padding: 10px 15px 10px 15px;
 }
@@ -69,7 +69,7 @@ body{
    font-size: 25px;
 }
 .btn:hover{
-   background-color: #1E824C;
+   background-color: #666;
 }
 .work{
    margin-top: 50px;
