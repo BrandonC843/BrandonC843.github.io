@@ -2,7 +2,7 @@
    box-sizing: border-box;
 }
 body{
-   background-color: #888;
+   background-color: #C0C0C0;
 }
 
 #app-container{
@@ -11,6 +11,10 @@ body{
 .navbar{
    text-align: center;
    font-size: 35px;
+}
+.navbar a {
+   margin-left: 25px;
+   margin-right: 25px;
 }
 .main-data{
    vertical-align: top;
@@ -48,12 +52,12 @@ body{
    margin-left: 35px;
    margin-right: 35px;
    margin-top: 30px;
-   background-color: #666
+   background-color: #C0C0C0
 }
 .thumbnail img{
    width: 75%;
    border-radius: 50%;
-   border: 3px #666 solid;
+   border: 3px #606060 solid;
 }
 .thumbnail img:hover{
    border-radius: 25%;
@@ -61,7 +65,7 @@ body{
 }
 .btn{
    border: none;
-   background-color: #666;
+   background-color: #C0C0C0;
    margin-left: 25%;
    padding: 10px 15px 10px 15px;
 }
@@ -69,7 +73,7 @@ body{
    font-size: 25px;
 }
 .btn:hover{
-   background-color: #666;
+   background-color: #C0C0C0;
 }
 .work{
    margin-top: 50px;
