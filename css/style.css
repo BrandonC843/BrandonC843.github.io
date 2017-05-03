@@ -8,24 +8,101 @@ body{
 #app-container{
    font-family: "comic sans";
 }
+
+@media screen and (min-width: 480px) {
+body{
+   background-color: #212B2E;
+}
+.main-data h1{
+   font-size: medium;
+   text-align: center;
+   color: #c0c0c0;
+}
+.main-data p{
+   display: none;
+}
+.profile img{
+   width: 45%;
+   border-radius: 90px 19px 90px 53px;
+   border: 2px solid black;
+   margin-top: 75px;
+   margin-left: 30%;
+}
+.navbar{
+   display: none;
+}
+.thumbnail{
+   border: none;
+}
+.thumbnail h3{
+   color: limegreen;
+}
+.previous_work a {
+   width: 25%;
+   display:inline-block;
+   border: none;
+   margin-left: 35px;
+}
+.previous_work h1{
+   display: none;
+}
+.previous_work h3{
+   text-align: center;
+}
+.skillset {
+   display: none;
+}
+.contact{
+   background-color: #c0c0c0;
+   width: 100%;
+}
+
+/*.contact h1{
+   display: none;
+}*/
+.contact a{
+   color: white;
+   font-size: 50px;
+}
+.footer{
+   display: none;
+}
+}
+
+@media screen and (min-width: 768px) {
+body{
+   background-color: #C0C0C0;
+}
+
 .navbar{
    text-align: center;
-   font-size: 35px;
+   display: inline-block;
+   width:100%;
+   background-color: #212B2E;
 }
-.navbar a {
-   margin-left: 25px;
-   margin-right: 25px;
+.navbar a{
+   color: #C0C0C0;
+   font-size: 35px;
+   width: 33.33%;
+   margin-left: 8%;
+   margin-right: 8%;
 }
 .main-data{
    vertical-align: top;
    display: flex;
-   width: 100%;
+}
+.profile p{
+   display: inline-block;
 }
 .profile img{
    width: 65%;
    border-radius: 50%;
    border: 5px #22313F dotted;
    margin-left: 25%;
+}
+.profile img:hover{
+   border-radius: 5px 20px 5px;
+   border-color: white;
 }
 .profile{
    margin-top: 5%;
@@ -59,10 +136,14 @@ body{
    border-radius: 50%;
    border: 3px #606060 solid;
 }
+.thumbnail h3{
+   color: #212B2E;
+}
 .thumbnail img:hover{
    border-radius: 25%;
-   width: 100%;
+   border-style: double;
 }
+
 .btn{
    border: none;
    background-color: #C0C0C0;
@@ -71,6 +152,7 @@ body{
 }
 .btn i{
    font-size: 25px;
+
 }
 .btn:hover{
    background-color: #C0C0C0;
@@ -82,32 +164,30 @@ body{
    text-decoration: underline;
    text-align: center;
 }
+.previous_work p{
+   display: inline;
+}
+.previous_work h1{
+   display: inline;
+   width: 50%;
+   margin-left: 40%;
+}
+
 
 h3{
    text-align: center;
-}
-
-h3:hover{
-   color: #34495e;
-   font-size: 35px;
-   font-style:oblique;
-}
-
-.skills{
-   text-align: center;
-   font-size: 35px;
-   text-decoration: underline;
    color: #34495e;
 }
+/*
+ .thumbnail p:hover{
+   color: #34495e;
+   font-size: small;
+   font-style: oblique;
+   text-transform: uppercase;
+   text-shadow: 3px;
+}*/
 
-.skillset{
-   font-size: 8rem;
-   text-align: center;
-}
-.skillset i {
-   padding-left: 40px;
-   padding-right: 45px;
-}
+
 .engage{
    text-align: center;
    text-decoration: underline;
@@ -115,12 +195,52 @@ h3:hover{
    color: #34495e;
 }
 
-.contact{
-   font-size: 8rem;
+.social{
+   background-color: #c0c0c0;
    text-align: center;
+
+}
+.social a{
+   color: #212B2E;
+   font-size: 33px;
+   text-decoration: none;
+   cursor: grab;
+
+}
+/*.social a {
+   padding-left: 25px;
+   padding-right: 25px;
+}*/
+.skills{
+   text-align: center;
+   text-decoration: underline;
+   color: #34495e;
 }
 
-.contact a {
-   padding-left: 45px;
-   padding-right: 45px;
+.skillset {
+   display: inline-block;
+   font-size: 0;
+   text-align: center;
+   width: 100%;
+}
+.skillset i {
+   font-size: medium;
+   /*padding-left: 20px;
+   padding-right: 20px;*/
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.footer{
+   text-align: center;
+   display: inline-block;
+   width:100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #212B2E;
+}
+.footer i{
+   color: #C0C0C0;
+   font-size: 35px;
+
+}
 }
