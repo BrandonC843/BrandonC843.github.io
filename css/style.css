@@ -9,7 +9,7 @@ body{
    font-family: "comic sans";
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
 body{
    background-color: #212B2E;
 }
@@ -57,9 +57,9 @@ body{
    width: 100%;
 }
 
-/*.contact h1{
+.contact h1{
    display: none;
-}*/
+}
 .contact a{
    color: white;
    font-size: 50px;
@@ -67,9 +67,12 @@ body{
 .footer{
    display: none;
 }
+.profile span{
+   display: none;
+}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
 body{
    background-color: #C0C0C0;
 }
@@ -79,6 +82,7 @@ body{
    display: inline-block;
    width:100%;
    background-color: #212B2E;
+   height: 100px;
 }
 .navbar a{
    color: #C0C0C0;
@@ -92,7 +96,7 @@ body{
    display: flex;
 }
 .profile p{
-   display: inline-block;
+   display: inline;
 }
 .profile img{
    width: 65%;
@@ -101,29 +105,28 @@ body{
    margin-left: 25%;
 }
 .profile img:hover{
-   border-radius: 5px 20px 5px;
-   border-color: white;
+   border:5px #22313F solid;
 }
 .profile{
-   margin-top: 5%;
+   margin-top: 1%;
    width: 50%;
    display: inline;
-}
-.profile{
-   width: 50%;
    padding-right: 10%;
 }
+
 .profile h1{
    font-size: 30px;
+   margin-bottom: 25px;
+   color: #333;
 }
 .profile p{
-   font-size: 20px;
-
+   font-size: 25px;
 }
 .profile a{
    text-decoration: none;
    color: #333;
 }
+
 .thumbnail {
    border: none;
    margin-left: 35px;
@@ -134,13 +137,15 @@ body{
 .thumbnail img{
    width: 75%;
    border-radius: 50%;
-   border: 3px #606060 solid;
+   border: 3px #22313F solid;
+   opacity: 0.5;
 }
 .thumbnail h3{
-   color: #212B2E;
+   color: #22313F;
 }
 .thumbnail img:hover{
    border-radius: 25%;
+   opacity: 1.0;
    border-style: double;
 }
 
@@ -148,29 +153,36 @@ body{
    border: none;
    background-color: #C0C0C0;
    margin-left: 25%;
+   color: #212B2E;
    padding: 10px 15px 10px 15px;
 }
 .btn i{
    font-size: 25px;
+   color: #212B2E;
 
 }
 .btn:hover{
    background-color: #C0C0C0;
 }
 .work{
-   margin-top: 50px;
+   margin-top: 40px;
    font-size: 35px;
    color: #34495e;
-   text-decoration: underline;
    text-align: center;
 }
+
 .previous_work p{
    display: inline;
+   font-size: large;
 }
 .previous_work h1{
    display: inline;
-   width: 50%;
-   margin-left: 40%;
+   margin-left: 43%;
+
+}
+.container-fluid {
+   padding-top: 75px;
+
 }
 
 
@@ -187,35 +199,34 @@ h3{
    text-shadow: 3px;
 }*/
 
+/**********Contact********/
 
-.engage{
+/*.social{
    text-align: center;
-   text-decoration: underline;
-   font-size: 35px;
+}*/
+.contact{
    color: #34495e;
+   width: 100%;
 }
-
 .social{
-   background-color: #c0c0c0;
-   text-align: center;
-
+   display: inline-flex;
+   margin-left: 15%;
+}
+.social p{
+   font-size: 30px;
+   margin-left: 5px;
+   margin-right: 5px;
 }
 .social a{
    color: #212B2E;
-   font-size: 33px;
+   font-size: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
    text-decoration: none;
-   cursor: grab;
+}
 
-}
-/*.social a {
-   padding-left: 25px;
-   padding-right: 25px;
-}*/
-.skills{
-   text-align: center;
-   text-decoration: underline;
-   color: #34495e;
-}
+
+/********FOOTER**********/
 
 .skillset {
    display: inline-block;
@@ -225,10 +236,8 @@ h3{
 }
 .skillset i {
    font-size: medium;
-   /*padding-left: 20px;
-   padding-right: 20px;*/
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-left: 25px;
+   margin-right: 25px;
 }
 .footer{
    text-align: center;
@@ -240,7 +249,32 @@ h3{
 }
 .footer i{
    color: #C0C0C0;
-   font-size: 35px;
+   font-size: 45px;
+}
 
+.fa{
+   margin-top: 15px;
+   padding: 20px;
+   font-size: 30px;
+   width: 75px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+}
+.fa-github-alt{
+   background: #C0C0C0;
+   color: #212B2E;
+}
+.fa-volume-control-phone{
+   background: #C0C0C0;
+   color: #212B2E;
+}
+.fa-linkedin{
+   background: #C0C0C0;
+   color: #212B2E;
+}
+.fa-envelope{
+   background: #C0C0C0;
+   color: #212B2E;
 }
 }
