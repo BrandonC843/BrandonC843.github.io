@@ -148,6 +148,11 @@ body{
    opacity: 1.0;
    border-style: double;
 }
+.thumbnail li {
+   text-align: center;
+   list-style: none;
+   margin-right: 50px;
+}
 
 .btn{
    border: none;
@@ -232,10 +237,8 @@ h3{
    display: inline-block;
    font-size: 0;
    text-align: center;
-   width: 100%;
 }
 .skillset i {
-   font-size: medium;
    margin-left: 25px;
    margin-right: 25px;
 }
@@ -243,6 +246,7 @@ h3{
    text-align: center;
    display: inline-block;
    width:100%;
+   padding: 0px;
    padding-top: 10px;
    padding-bottom: 10px;
    background-color: #212B2E;
