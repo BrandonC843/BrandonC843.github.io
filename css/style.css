@@ -99,10 +99,11 @@ body{
    display: inline;
 }
 .profile img{
-   width: 65%;
+   width: 85%;
    border-radius: 50%;
    border: 5px #22313F dotted;
-   margin-left: 25%;
+   margin-top: 100px;
+   margin-left: 15%;
 }
 .profile img:hover{
    border:5px #22313F solid;
