@@ -183,7 +183,7 @@ body{
 }
 .previous_work h1{
    display: inline;
-   margin-left: 43%;
+   margin-left: 40%;
 
 }
 .container-fluid {
@@ -191,11 +191,11 @@ body{
 
 }
 
-
 h3{
    text-align: center;
    color: #34495e;
 }
+
 /*
  .thumbnail p:hover{
    color: #34495e;
