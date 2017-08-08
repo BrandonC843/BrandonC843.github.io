@@ -3,138 +3,53 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Brandon's Portfolio</title>
+      <title>Brandon Callahan</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"crossorigin="anonymous">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
-      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" type="text/css" href="./styles/index.css">
    </head>
-   <body>
-      <div class="app-container">
-         <!-- Navbar Content -->
+<body>
+<div class="app-container">
          <div class="navbar">
-            <a href="https://drive.google.com/open?id=0B43pCdmhLBPDLXFXbkhBXy1DbFE">Resum&#233;</a>
-            <a class="link" target="_blank"  href="https://github.com/BrandonC843"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-            <a class="link" target="_blank"  href="https://www.linkedin.com/in/brandon-callahan-774069139/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a class="link" target="_blank"  href="mailto:B_callahan843@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <ul class="nav nav-pills">
+               <li role="presentation"><a href="Brandon_Callahan_CoverLetter.pdf">Resum&#233;</a></li>
+               <li role="presentation"><a href="https://github.com/BrandonC843">GitHub</a></li>
+               <li role="presentation"><a href="./pages/portfolio.html">portfolio site</a></li>
+               <li role="presentation"><a href="#portLink">Portfolio</a></li>
+               <li role="presentation"><a href="./pages/aboutMe.html">more about me</a></li>
+               <li role="presentation"><a href="mailto:b_callahan843@icloud.com">Email</a></li>
+               <li role="presentation"><a href="https://brandoncallahan.wordpress.com">My Wordpress</a></li>
+            </ul>
          </div>
-         <!-- About Me -->
+         <!-- Navbar Content -->
 
-            <div class="main-data container-fluid">
-               <div class="profile img">
-                  <img id="wallPic" src="images/profile.jpg" alt="">
-               </div>
-               <div class="profile data">
-                  <h1>Brandon || Callahan</h1>
+         <!-- About Me -->
+      <div class="intro-jumbotron">
+         <div class="container">
+
+            <div class="profile img">
+               <img id="wallPic" src="images/profile.jpg" alt="">
+            </div>
+
+            <div class="profile data">
+               <h1>Brandon <span>&#9752;</span> Callahan</h1>
                   <p>
                      After spending the past several years in the air-conditioning industry, I hung up the guages for a computer and the world of web development.
-                     I recently graduated from The Iron Yard in the Front End Developer program and plan to take my previous life experiences to create
-                     a user friendly experience on the web. Apart from writing code I love being with my wife and exploring this great city of Charleston. A die hard Philadelphia
+                     I recently graduated from The Iron Yard as a Front End Developer. I plan to take my previous life experiences to help create
+                     a wonderful experience on the web.
+                  </p>
+                  <p>
+                     Apart from writing code I love being with my wife and exploring this great city of Charleston. A die hard Philadelphia
                      sports fan who enjoys playing Hurling, paddle boarding, and just being outdoors.
                   </p>
-               </div>
             </div>
 
-         <!--Previous work  -->
-
-         <div class="previous_work container-fluid" id="work">
-            <h1 class="works">Previous Projects</h1>
-            <div class="row">
-
-                 <div class="col-sm-6 col-md-4">
-                   <div class="thumbnail">
-                     <img src="images/Solrod.png" alt="...">
-                     <div class="caption">
-                       <h3>SOLROD</h3>
-                       <p>
-                          A visual mockup of a site that helps find roomates. It is made to be responsive
-                          and can be viewed on several different screen sizes at specific media queries.
-                          <h3>TECH STACK:</h3>
-                              <ul>
-                                 <li>CSS3</li>
-                                 <li>HTML5</li>
-                                 <li>BOOTSTRAP</li>
-                              </ul>
-
-                       </p>
-                       <a target="_blank" href="https://github.com/BrandonC843/Solrod-Mockup" class="btn btn-default" role="button"><i class="devicon-github-plain colored"></i> Github </a>
-                       <a target="_blank" href="https://solrod.surge.sh" class="btn btn default" role="button"><i class="fa fa-bullseye fa-3x fa-fw"></i> Live </a>
-                     </div>
-                   </div>
-                 </div>
-
-                 <div class="col-sm-6 col-md-4">
-                   <div class="thumbnail">
-                     <img src="images/ToDoList.png" alt="...">
-                     <div class="caption">
-                       <h3>TO-DO LIST</h3>
-                       <p>
-                          A React.js and jQueary web based app that allows a user to add a task to the list. Once task has
-                          been completed the user can remove item by clicking button.
-                       </p>
-                           <h3>TECH STACK:</h3>
-                              <ul>
-                                 <li>BackBone</li>
-                                 <li>React.js</li>
-                                 <li>jQuery</li>
-                                 <li></li>
-                             </ul>
-                       <a target="_blank" href="https://github.com/BrandonC843/assignment-24" class="btn btn-default" role="button"><i class="devicon-github-plain colored"></i> Github </a>
-                       <a target="_blank" href="https://getstuffdonelist.herokuapp.com" class="btn btn default" role="button"><i class="fa fa-bullseye fa-3x fa-fw"></i> Live </a>
-                     </div>
-                   </div>
-                 </div>
-
-                 <div class="col-sm-6 col-md-4">
-                   <div class="thumbnail">
-                     <img src="images/GithubClone.png" alt="...">
-                     <div class="caption">
-                       <h3>GITHUB CLONE</h3>
-                       <p>
-                          A clone of the repository site Github.com. Using Github's API
-                          a user can search through active profiles and repositories. Data gets rendered
-                          dynamically on screen.
-                       </p>
-                           <h3>TECH STACK:</h3>
-                              <ul>
-                                 <li>JQUERY</li>
-                                 <li>JSON</li>
-                                 <li>GITHUB API</li>
-                             </ul>
-                       <a target="_blank" href="https://github.com/BrandonC843/Github-Clone" class="btn btn-default" role="button"><i class="devicon-github-plain colored"></i> Github </a>
-                       <a target="_blank" href="https://githubclone.surge.sh" class="btn btn default" role="button"><i class="fa fa-bullseye fa-3x fa-fw"></i> Live </a>
-                     </div>
-                   </div>
-                 </div>
-
-            </div>
          </div>
-         <!--My Skills  -->
-            <!-- <h1 class="skills">Familiar With</h1>
-            <p>
-               <i class="devicon-github-plain-wordmark colored"></i>
-               <i class="devicon-git-plain-wordmark colored"></i>
-               <i class="devicon-atom-original-wordmark"></i>
-            </p>
+      </div>
 
-            <p>
-               <i class="devicon-bootstrap-plain-wordmark colored"></i>
-               <i class="devicon-mongodb-plain-wordmark"></i>
-               <i class="devicon-sass-original-wordmark colored"></i>
-               <i class="devicon-trello-plain-wordmark colored"></i>
-            </p>
 
-            <p>
-               <i class="devicon-css3-plain-wordmark"></i>
-               <i class="devicon-html5-plain-wordmark colored"></i>
-               <i class="devicon-javascript-plain-wordmark colored"></i>
-               <i class="devicon-backbonejs-plain-wordmark colored"></i>
-               <i class="devicon-react-original-wordmark colored"></i>
-               <i class="devicon-jquery-plain-wordmark colored"></i>
-               <i class="devicon-nodejs-plain-wordmark"></i>
-            </p>
-         </div> -->
 
          <div class="contact" id="contact_me">
             <div class="social">
@@ -145,28 +60,7 @@
                <a target="_blank"  href="mailto:B_callahan843@icloud.com"> Email Me |</a>
             </div>
          </div>
-
-
-
-         <div class="footer">
-            <div class="skillset">
-               <i class="devicon-github-plain-wordmark"></i>
-               <i class="devicon-git-plain-wordmark"></i>
-               <i class="devicon-atom-original-wordmark"></i>
-               <i class="devicon-bootstrap-plain-wordmark"></i>
-               <i class="devicon-mongodb-plain-wordmark"></i>
-               <i class="devicon-sass-original-wordmark"></i>
-               <i class="devicon-trello-plain-wordmark"></i>
-               <i class="devicon-css3-plain-wordmark"></i>
-               <i class="devicon-html5-plain-wordmark"></i>
-               <i class="devicon-javascript-plain-wordmark"></i>
-               <i class="devicon-backbonejs-plain-wordmark"></i>
-               <i class="devicon-react-original-wordmark"></i>
-               <i class="devicon-jquery-plain-wordmark"></i>
-               <i class="devicon-nodejs-plain-wordmark"></i>
-            </div>
-         </div>
-   </div>
-      <script src="./js/app.js"></script>
-   </body>
+</div>
+   <script src="./js/app.js"></script>
+</body>
 </html>

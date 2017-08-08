@@ -1,0 +1,63 @@
+* {
+   box-sizing: border-box;
+}
+.navbar{
+   display: none;
+}
+.intro-jumbotron{
+   background-color: skyblue;
+}
+
+.footer{
+   display: none;
+}
+.social{
+   display: none;
+}
+
+/*This is where it turns into Desktop below here!!!!*/
+@media screen and (min-width: 768px){
+   *{
+      box-sizing: border-box;
+   }
+   .navbar{
+      background-color: purple;
+      font-size: 0;
+      width: 100%;
+      vertical-align: top;
+      display: inline-block;
+      margin-bottom: 0px;
+      border-radius: 0px;
+   }
+   .nav a{
+      font-size: medium;
+      color: yellow;
+   }
+   .intro-jumbotron{
+      width: 100%;
+      font-size: 0;
+      vertical-align: top;
+      display: inline-block;
+   }
+   .intro-jumbotron {
+      background-image: url("../images/Battery.jpg");
+      background-size: cover;
+      color: #fff;
+   }
+
+   .profile img{
+      width: 30%;
+      margin-left: 5px;
+      margin-top: 5px;
+      border-radius: 50%;
+   }
+   .profile p{
+      display: block;
+      font-size: medium;
+      width: 50%;
+   }
+   .profile h1{
+      display: none;
+   }
+
+}
