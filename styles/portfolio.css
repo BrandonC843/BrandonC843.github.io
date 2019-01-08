@@ -2,129 +2,20 @@
    box-sizing: border-box;
    background-color: palegoldenrod;
 }
-
-.portNav{
-   background-color: #004953;
-   font-size: 0;
+#app-container{
    width: 100%;
+   background-image: url("../images/Paddle.png");
+   background-size: cover;
+}
+.navbar{
+   background-color: orange;
+   width:100%;
    vertical-align: top;
    display: inline-block;
-   margin-bottom: 0px;
-   border-radius: 0px;
+   margin-bottom: 15px;
 }
-h1{
-   color: purple;
-}
-.profile img {
-   background-size: cover;
-   padding-top: 10px;
-   width:100%;
-   border-radius: 50%;
-}
-.profile h1{
-   text-align: center;
-}
-.profile p{
-   display: none;
-}
-.portTitle h2{
-   text-align: center;
-   height: 50px;
-   padding-top: 10px;
-   margin-top: 0;
-   margin-bottom: 0;
-   border-top: solid black 2px;
-}
-.portfolio-jumbotron{
-   text-align: center;
-   height: 225px;
-   border-top: 2px solid black;
-   padding-top: 15px;
-   padding-bottom: 40px;
-}
-.iceland{
-   background-image: url("../images/iceland.jpg");
-   background-size: auto;
-
-}
-.toDo{
-   background-image: url("../images/ToDoList.png");
-   background-size: auto;
-}
-.gitHub{
-   background-image: url("../images/GithubClone.png");
-   background-size: auto;
-
-}
-@media screen and (min-width: 768px){
-   .profile img{
-      width: 30%;
-      margin-left: 5px;
-      margin-top: 5px;
-      border-radius: 50%;
-   }
-   .profile p{
-      display: block;
-      font-size: medium;
-      width: 50%;
-   }
-   .profile h1{
-      display: none;
-   }
-
-   .portfolio-jumbotron{
-      padding-top: 100px;
-      height: 500px;
-      font-size: small;
-   }
-   .entirePortfolio h3{
-      font-size: 35px;
-      color: black;
-   }
-   .portHeading{
-      background-color: #f57c00;
-      width:100%;
-      text-align: center;
-   }
-   .iceland{
-      background-image: url("../images/Iceland.jpg");
-      background-size: cover;
-   }
-   .iceland p{
-      color: midnightBlue;
-      padding-bottom: 35px;
-   }
-
-   .toDo{
-      background-image: url("../images/ToDoList.png");
-      background-size: cover;
-   }
-   .toDo p{
-      color: red;
-   }
-   .gitHub{
-      background-image: url("../images/GithubClone.png");
-      background-size: cover;
-      width: 100%;
-      position: absolute
-   }
-   .gitHub p{
-      color: blue;
-      width: 25%;
-      height: 250px;
-      font-size: 25px;
-      position: relative;
-      margin-left: 850px;
-   }
-
-   .social{
-      display: none;
-   }
-   .footer{
-      display: none;
-   }
-   .head{
-      color: blue;
-   }
-
+.nav a{
+   font-size: medium;
+   color: green;
+   background-color: black;
 }

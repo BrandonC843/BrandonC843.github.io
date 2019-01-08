@@ -11,56 +11,46 @@
       <link rel="stylesheet" type="text/css" href="./styles/index.css">
    </head>
 <body>
+
 <div class="app-container">
-         <div class="navbar">
-            <ul class="nav nav-pills">
-               <li role="presentation"><a href="Brandon_Callahan_CoverLetter.pdf">Resum&#233;</a></li>
-               <li role="presentation"><a href="https://github.com/BrandonC843">GitHub</a></li>
-               <li role="presentation"><a href="./pages/portfolio.html">portfolio site</a></li>
-               <li role="presentation"><a href="#portLink">Portfolio</a></li>
-               <li role="presentation"><a href="./pages/aboutMe.html">more about me</a></li>
-               <li role="presentation"><a href="mailto:b_callahan843@icloud.com">Email</a></li>
-               <li role="presentation"><a href="https://brandoncallahan.wordpress.com">My Wordpress</a></li>
-            </ul>
+
+   <nav class="nav u_column-container">
+         <div class="nav__logo-column">
+            <img class="nav__site_logo" src="" alt=""class="site_logo" >
          </div>
-         <!-- Navbar Content -->
+         <div class="nav__nav-options-column">
+            <div class="nav__big-screen-options u_column-container">
+					<a href="Brandon_Callahan_CoverLetter.pdf" target="_blank" class="nav__tab-link">
+						RESUME
+					</a>
+               <a href="https://brandoncallahan.wordpress.com" target="_blank"class="nav__tab-link press">
+						WORDPRESS
+					</a>
+				</div>
+         </div>
+   </nav>
 
          <!-- About Me -->
-      <div class="intro-jumbotron">
-         <div class="container">
-
-            <div class="profile img">
-               <img id="wallPic" src="images/profile.jpg" alt="">
-            </div>
-
-            <div class="profile data">
-               <h1>Brandon <span>&#9752;</span> Callahan</h1>
-                  <p>
-                     After spending the past several years in the air-conditioning industry, I hung up the guages for a computer and the world of web development.
-                     I recently graduated from The Iron Yard as a Front End Developer. I plan to take my previous life experiences to help create
-                     a wonderful experience on the web.
-                  </p>
-                  <p>
-                     Apart from writing code I love being with my wife and exploring this great city of Charleston. A die hard Philadelphia
-                     sports fan who enjoys playing Hurling, paddle boarding, and just being outdoors.
-                  </p>
-            </div>
-
+   <section class="section u_max-container">
+      <article class="brandon_info column-container">
+         <div class="brandon_info__img-column">
+            <img src="images/profile.jpg" alt="">
          </div>
-      </div>
 
-
-
-         <div class="contact" id="contact_me">
-            <div class="social">
-               <!-- <h1 class="engage">Contact information</h1> -->
-               <a target="_blank"  href="https://github.com/BrandonC843"> | Browse my Github </a><p>&#10026;</p>
-               <a target="_blank"  href="tel://843-998-1167"> FaceTime me </a><p>&#10026;</p>
-               <a target="_blank"  href="https://www.linkedin.com/in/brandon-callahan-774069139/"> View my LinkedIn </a><p>&#10026;</p>
-               <a target="_blank"  href="mailto:B_callahan843@icloud.com"> Email Me |</a>
-            </div>
+         <div class="brandon_info__text-column">
+            <p class="brandon_info__body-text">
+               My name is <strong>Brandon Callahan</strong> and after spending the past several years
+               in the air-conditioning industry, I hung up the guages for a computer and the world of web development.
+               I recently graduated from <em>The Iron Yard</em> as a Front End Developer. I plan to take my previous
+               life experiences to help create a wonderful experience on the web.
+            </p>
          </div>
+      </article>
+   </section>
+   <!-- Footer area -->
+      <footer class="footer column-container">
+      </footer>
 </div>
    <script src="./js/app.js"></script>
 </body>
-</html>
+</html

@@ -1,63 +1,123 @@
 * {
    box-sizing: border-box;
 }
-.navbar{
-   display: none;
+img{
+   width: 100%;
+   display: block;
 }
-.intro-jumbotron{
-   background-color: skyblue;
+a {
+   text-decoration: none;
+   color: inherit;
+}
+.u_max-container{
+background-image: url("../images/Battery.jpg");
+background-size: cover;
+height: 900px;
+margin: 0 auto;
 }
 
-.footer{
-   display: none;
-}
-.social{
-   display: none;
+.u_column-container {
+  font-size: 0;
 }
 
-/*This is where it turns into Desktop below here!!!!*/
-@media screen and (min-width: 768px){
-   *{
-      box-sizing: border-box;
-   }
-   .navbar{
-      background-color: purple;
-      font-size: 0;
-      width: 100%;
-      vertical-align: top;
-      display: inline-block;
-      margin-bottom: 0px;
-      border-radius: 0px;
-   }
-   .nav a{
-      font-size: medium;
-      color: yellow;
-   }
-   .intro-jumbotron{
-      width: 100%;
-      font-size: 0;
-      vertical-align: top;
-      display: inline-block;
-   }
-   .intro-jumbotron {
-      background-image: url("../images/Battery.jpg");
-      background-size: cover;
-      color: #fff;
-   }
+.u_column-container > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+}
+.column-container{
+   font-size: 0;
+}
+.column-container > * {
+   display: inline-block;
+   vertical-align: top;
+   font-size: medium;
+}
 
-   .profile img{
-      width: 30%;
-      margin-left: 5px;
-      margin-top: 5px;
+.brandon_info{
+   margin-bottom: 20px;
+}
+
+.brandon_info__img-column {
+   width:100%;
+}
+
+.brandon_info__text-column{
+   width: 100%;
+   padding: 0;
+}
+
+.brandon_info__body-text{
+  color: white;
+  font-family: "Georgia", "Palatino", "serif";
+  padding-left: 9px;
+}
+/* @media screen and (min-width: 600px) { */
+   .nav_icon{
+      font-size: 50px;
+   }
+   .brandon_info__img-column{
+      width: 40%;
+   }
+   .brandon_info__text-column{
+      width: 60%;
+   }
+   .brandon_info__text-column{
+      padding: 0 9px;
+      margin-top: 40px;
+   }
+   .brandon_info__body-text{
+      padding-right: 75px;
+      border-left: 0;
+      font-size: 25px;
+      color: white;
+      font-family: "Georgia", "Palatino", "serif";
+      padding-left: 9px;
+   }
+   .brandon_info__img-column img{
       border-radius: 50%;
+      width: 75%;
+      margin-left: 75px;
+      margin-top: 40px;
    }
-   .profile p{
-      display: block;
-      font-size: medium;
-      width: 50%;
+/* } */
+@media screen and (min-width: 1000px){
+   .nav{
+	width: 100%;
+	background: #154360;
    }
-   .profile h1{
-      display: none;
+   .nav__logo-column{
+   width: 5%
    }
+   .nav__nav-options-column{
+	width: 80%;
+}
+
+.nav__tab-link{
+	padding: 12px;
+	width: 20%;
+	text-align: center;
+	color: #aaa;
+	text-transform: uppercase;
+	font-family: "GillSans";
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-weight: 200;
+}
+
+.nav__tab-link:hover{
+	background-color: #aaa;
+	color: #154360;
+   text-decoration: none;
+}
+.nav__tab-link:active{
+   background-color: #aaa;
+   color: #ddd;
+}
+.footer{
+   background-color: #154360;
+
+}
+
 
 }

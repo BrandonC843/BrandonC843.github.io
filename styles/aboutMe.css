@@ -1,8 +1,21 @@
 *{
    box-sizing: border-box;
-   background-color: red;
+}
+body {
+   background-image: url("../images/Paddle.png");
+   background-size: cover;
 }
 
-.details{
-   color: white;
+.details-container{
+   font-family: Georgia;
+   width: 100%;
+   color: red;
+}
+.eagles-column{
+   width: 50%;
+   color: black;
+}
+img{
+   width:125px;
+   height:75px;
 }
