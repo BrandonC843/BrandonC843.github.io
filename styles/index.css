@@ -3,121 +3,127 @@
 }
 img{
    width: 100%;
-   display: block;
 }
 a {
    text-decoration: none;
-   color: inherit;
-}
-.u_max-container{
-background-image: url("../images/Battery.jpg");
-background-size: cover;
-height: 900px;
-margin: 0 auto;
 }
 
-.u_column-container {
-  font-size: 0;
-}
-
-.u_column-container > * {
-    display: inline-block;
-    vertical-align: top;
-    font-size: medium;
-}
-.column-container{
-   font-size: 0;
-}
-.column-container > * {
-   display: inline-block;
-   vertical-align: top;
-   font-size: medium;
-}
-
-.brandon_info{
-   margin-bottom: 20px;
-}
-
-.brandon_info__img-column {
-   width:100%;
-}
-
-.brandon_info__text-column{
-   width: 100%;
-   padding: 0;
-}
-
-.brandon_info__body-text{
-  color: white;
-  font-family: "Georgia", "Palatino", "serif";
-  padding-left: 9px;
-}
-/* @media screen and (min-width: 600px) { */
-   .nav_icon{
-      font-size: 50px;
-   }
-   .brandon_info__img-column{
-      width: 40%;
-   }
-   .brandon_info__text-column{
-      width: 60%;
-   }
-   .brandon_info__text-column{
-      padding: 0 9px;
-      margin-top: 40px;
-   }
-   .brandon_info__body-text{
-      padding-right: 75px;
-      border-left: 0;
-      font-size: 25px;
-      color: white;
-      font-family: "Georgia", "Palatino", "serif";
-      padding-left: 9px;
-   }
-   .brandon_info__img-column img{
-      border-radius: 50%;
-      width: 75%;
-      margin-left: 75px;
-      margin-top: 40px;
-   }
-/* } */
-@media screen and (min-width: 1000px){
-   .nav{
+.nav{
 	width: 100%;
 	background: #154360;
-   }
-   .nav__logo-column{
-   width: 5%
-   }
-   .nav__nav-options-column{
-	width: 80%;
+   height: 75px;
+}
+.nav a{
+   color: palegoldenrod;
+   font-size: 30px;
+   font-family: "Georgia";
 }
 
 .nav__tab-link{
 	padding: 12px;
-	width: 20%;
 	text-align: center;
-	color: #aaa;
-	text-transform: uppercase;
-	font-family: "GillSans";
-	font-size: 20px;
 	letter-spacing: 5px;
-	font-weight: 200;
 }
 
 .nav__tab-link:hover{
-	background-color: #aaa;
+	background-color: palegoldenrod;
 	color: #154360;
    text-decoration: none;
+   height:75px;
+
 }
+
 .nav__tab-link:active{
-   background-color: #aaa;
-   color: #ddd;
+   background-color: palegoldenrod;
+   color: #154360;
+   list-style: none;
 }
+
+.u_max-container{
+   background-image: url("../images/Battery.jpg");
+   background-size: cover;
+   height: 950px;
+   margin: 0 auto;
+}
+
+.u_column-container {
+     font-size: 0;
+}
+
+.u_column-container > * {
+       display: inline-block;
+       vertical-align: top;
+       font-size: medium;
+}
+
+.column-container{
+      font-size: 0;
+}
+
+.column-container > * {
+      display: inline-block;
+      vertical-align: top;
+      font-size: medium;
+}
+
+.brandon_info__img-column{
+   width: 40%;
+}
+
+.brandon_info__text-column{
+   width: 60%;
+}
+
+.brandon_info__text-column{
+   padding: 0 9px;
+   margin-top: 40px;
+}
+
+.brandon_info__img-column img{
+   border-radius: 50%;
+   width: 75%;
+   margin-left: 75px;
+   margin-top: 40px;
+}
+
+.brandon_info__body-text{
+   padding-right: 75px;
+   border-left: 0;
+   font-size: 28px;
+   color: palegoldenrod;
+   font-family: "Georgia", "Palatino", "serif";
+   padding-left: 9px;
+}
+
 .footer{
    background-color: #154360;
+   height: 75px;
+   width: 100%;
+   color: palegoldenrod;
 
 }
 
+.footer a {
+   width: 15%;
+   font-size: 35px;
+   margin-top: 10px;
+   color: palegoldenrod;
+}
 
+.apple{
+   float: left;
+   margin-top: 10px;
+   margin-left: 10PX;
+   margin-bottom: 15px;
+   height: 30px;
+}
+
+.far {
+   font-size: 35px;
+   float: right;
+   margin-top: 38px;
+   margin-right: 8px;
+}
+.footer i {
+   font-size: 30px;
 }
