@@ -1,0 +1,32 @@
+*{
+   box-sizing: border-box;
+   background-color: antiquewhite;
+}
+ul{
+   text-decoration: none;
+   list-style-type: none;
+   border: 2px solid grey;
+   width: 325px;
+   margin-left: 25px;
+}
+
+input{
+   background-color: white;
+}
+textarea{
+   border-radius: 10px;
+   color: palegoldenrod;
+}
+p{
+   color: #B6F9C9;
+   font-size: 25px;
+   border: 1px dashed white;
+}
+.textarea{
+   margin-left: 50px;
+}
+.homeButton{
+   position: fixed;
+   bottom: 8px;
+   right: 15px;
+}
