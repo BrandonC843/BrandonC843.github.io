@@ -10,10 +10,11 @@ body{
    background-color: darkgrey;
 }
 h1{
-   color: magenta;
+   color: darkSlateBlue;
+   font-size: 45px;
 }
 .header_container{
-   font-size: 45px;
+   font-size: 75px;
    font-family: georgia;
 }
 .what_container{
@@ -23,20 +24,38 @@ h1{
 .activities{
    display: inline-block;
    background-color: white;
-   border: 3px dashed black;
+   border: 15px double #ceadac;
    margin: 25px;
    width: 75%
-
 }
 .activities p{
-   color: red;
+   color: slateBlue;
+   font-size: 35px;
+}
+.activities li{
+   color: mediumSlateBlue;
+   font-size: 33px;
 }
 .footer_container{
+   position: fixed;
+   bottom: 0;
    border: 2px solid black;
-   background: red;
+   background: white;
    color: black;
-   padding-top: 10px;
    width: 100%;
    margin: 0 auto;
-   height: 100px;
+   height: 75px;
+}
+.footer_container ul{
+position: relative;
+display: block;
+text-align: center;
+margin: 15px;
+
+}
+.footer_container li{
+   width: auto;
+   display: inline;
+   padding: 10px;
+   font-size: 30px;
 }
