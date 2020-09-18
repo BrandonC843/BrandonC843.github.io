@@ -1,0 +1,42 @@
+*{
+   box-sizing: border-box;
+   text-align: center;
+}
+
+ul{
+   list-style-type: none;
+}
+body{
+   background-color: darkgrey;
+}
+h1{
+   color: magenta;
+}
+.header_container{
+   font-size: 45px;
+   font-family: georgia;
+}
+.what_container{
+   width:100%;
+   display: block;
+}
+.activities{
+   display: inline-block;
+   background-color: white;
+   border: 3px dashed black;
+   margin: 25px;
+   width: 75%
+
+}
+.activities p{
+   color: red;
+}
+.footer_container{
+   border: 2px solid black;
+   background: red;
+   color: black;
+   padding-top: 10px;
+   width: 100%;
+   margin: 0 auto;
+   height: 100px;
+}
