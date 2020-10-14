@@ -1,19 +1,22 @@
 *{
    box-sizing: border-box;
-
 }
 .header_container{
    height: 200px;
    width: fill;
    text-align: center;
    padding-top: 75px;
-   background-color: #45234123;
+   background-image: linear-gradient(35deg, tan, firebrick, tan);
+   box-shadow: inset 0 0 35px 10px rgba(6,6,6,1);
+}
+.header_container p {
+   color: white;
+   font-size: 38px;
 }
 .top_container{
    text-align: center;
    font-size: 0;
    margin: 25px;
-   background-color: #daaaaaad;
 }
 img{
    width: 400px;
@@ -22,35 +25,36 @@ img{
    margin-top: 5px;
    border-radius: 25px;
 }
-.scooby{
-   border: 5px solid black;
-   font-size: medium;
+.data_columns{
+   border: 2px solid firebrick;
+   padding: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 .another_column{
    display: inline-block;
-   max-width: 1500px;
-   background-color: #45234123;
+   max-width: 900px;
    margin-top: 10px;
    margin-bottom: 10px;
+   border-radius: 15%;
+   font-size: 18px;
+
 }
-.middle_container{
-   width: 100%;
-   font-size: 0;
-   text-align: center;
-}
-.middle_container{
-   display: inline-block;
-   background-color: #45234123;
-   font-size: medium;
-}
+
 .bottom_container{
-   height: 45px;
+   height: auto;
+   font-size: 25px;
    width: fill;
    background-color: #45234123;
    text-align: center;
 }
 .footer_column{
+   padding: 8px;
+
 }
 .blog{
    float: right;
+}
+.thouse{
+   float: left;
 }
